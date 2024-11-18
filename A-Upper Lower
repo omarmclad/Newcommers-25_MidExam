@@ -11,6 +11,7 @@ signed main() {
     //checking if my character is in lower_case from (97-122)
     //                                 'A'-'Z'
     //subtracting 32 from my character (65-90) 
+    // make sure to use char() to switch back from a number to char 
     if(c>='a'&&c<='z'){
         cout<<char(c-32);
     }

@@ -6,7 +6,6 @@ using namespace std;
 #define McLAD ios_base::sync_with_stdio(0); cin.tie(0);
 signed main() {
     McLAD
-  // make sure to ask the question before you wait for the response
     int x;
     cin>>x;
     //check if x is odd or even
